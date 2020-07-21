@@ -12,10 +12,11 @@ GO
 CREATE PROCEDURE dbo.getEmployee
     @ID nchar
 AS
-    SELECT  NameI
+    SELECT  Nombre2
     FROM    dbo.Employees
-    WHERE   NameI = @ID
+    WHERE   Nombre2 = @ID
     /*FOR     JSON PATH*/
+    /*This is a test*/
 GO
 EXECUTE dbo.getEmployee 1
 GO
