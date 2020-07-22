@@ -17,6 +17,7 @@ AS
     WHERE   Nombre2 = @ID
     /*FOR     JSON PATH*/
     /*This is a test*/
+    /*comment 2*/
 GO
 EXECUTE dbo.getEmployee 1
 GO
